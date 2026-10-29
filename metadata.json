@@ -1,0 +1,6 @@
+{
+  "name": "BudFit",
+  "description": "AI-enhanced personal financial management platform with real-time cash flow, automated categorization, and intelligent budgeting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

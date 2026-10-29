@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --navy: #2B4F60;
+    --navy-deep: #1B333F;
+    --mauve: #845460;
+    --mauve-deep: #6A414B;
+    --peach: #D98B6F;
+    --peach-light: #EAD3CB;
+    --sage: #BDC7C9;
+    --sage-deep: #8FA0A2;
+    --teal: #4F8683;
+    --cream: #FAF6F2;
+    --paper: #FFFFFF;
+    --ink: #22323A;
+    --ink-soft: #5B6E75;
+    --line: rgba(43,79,96,0.13);
+    --shadow: 0 1px 2px rgba(27,51,63,0.04), 0 8px 24px rgba(27,51,63,0.06);
+
+    --font-serif: 'Fraunces', serif;
+    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-mono: 'IBM Plex Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--cream);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    color: var(--navy-deep);
+    font-weight: 500;
+  }
+
+  .font-mono, .mono {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .font-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF6F2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #BDC7C9;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8FA0A2;
+}
